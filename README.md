@@ -11,7 +11,7 @@ DB Scaffold
 
 https://docs.microsoft.com/en-us/ef/core/managing-schemas/scaffolding?tabs=vs
 
-Scaffold-DbContext 'Data Source=localhost, 1434;Initial Catalog=eProdaja; user=sa; Password=QWEasd123!' Microsoft.EntityFrameworkCore.SqlServer -OutputDir Database
+Scaffold-DbContext 'Data Source=localhost, 1401;Initial Catalog=eProdaja; user=sa; Password=QWEasd123!' Microsoft.EntityFrameworkCore.SqlServer -OutputDir Database
 
 EF CORE
 https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-5.0
