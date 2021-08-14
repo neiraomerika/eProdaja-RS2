@@ -41,8 +41,12 @@ namespace eProdaja
             services.AddDbContext<eProdajaContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddScoped<IProizvodService, ProizvodService>();
             services.AddScoped<IKorisniciService, KorisniciService>();
+            services.AddScoped<IJedinicaMjereService, JedinicaMjereService>();
+           services.AddScoped<IVrsteProizvodumService, VrsteProizvodumService>();
+            services.AddScoped<IProizvodiService, ProizvodService>();
+
+
 
             //DEPENDENCY 
             //Transient svaki resolve kroz konstruktor,dobija novu instancu
